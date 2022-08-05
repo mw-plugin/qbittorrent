@@ -320,38 +320,38 @@ def test():
 if __name__ == "__main__":
     func = sys.argv[1]
     if func == 'status':
-        print status()
+        print(status())
     elif func == 'start':
-        print start()
+        print(start())
     elif func == 'stop':
-        print stop()
+        print(stop())
     elif func == 'restart':
-        print restart()
+        print(restart())
     elif func == 'reload':
-        print reload()
+        print(reload())
     elif func == 'initd_status':
-        print initdStatus()
+        print(initdStatus())
     elif func == 'initd_install':
-        print initdInstall()
+        print(initdInstall())
     elif func == 'initd_uninstall':
-        print initdUinstall()
+        print(initdUinstall())
     elif func == 'get_sql':
-        print getSqlFile()
+        print(getSqlFile())
     elif func == 'rsync_shell':
-        print getRsyncShell()
+        print(getRsyncShell())
     elif func == 'conf':
-        print getConf()
+        print(getConf())
     elif func == 'get_run_Log':
-        print getRunLog()
+        print(getRunLog())
     elif func == 'qb_list':
-        print qbList()
+        print(qbList())
     elif func == 'qb_del':
-        print qbDel()
+        print(qbDel())
     elif func == 'qb_add':
-        print qbAdd()
+        print(qbAdd())
     elif func == 'qb_url':
-        print getQbUrl()
+        print(getQbUrl())
     elif func == 'test':
-        print test()
+        print(test())
     else:
         print 'error'
